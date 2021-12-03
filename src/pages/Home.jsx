@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <>
       <div>
-        <h1>{page_title[0].text}</h1>
-        <img src={hero_image.url} alt={hero_image.alt} />
+        <h1 className="text-3xl text-center">{page_title[0].text}</h1>
+        <img id="image" src={hero_image.url} alt={hero_image.alt} />
       </div>
       <SliceSection body={body} />
     </>
